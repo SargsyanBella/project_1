@@ -1,0 +1,69 @@
+body {
+    background-color: rgba(198, 220, 245, 0.76);
+    margin: 0;
+}
+.header {
+    background-color: #f1f3;
+    padding: 20px;
+    text-align: center;
+
+}
+/* The navbar container */
+.nav {
+    overflow:auto
+    background-color #555;
+    width: 100%;
+    display: flex;
+    margin-left:65%;
+  }
+  
+  /* Navbar links */
+  .nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Links - change color on hover */
+  .nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+.container  {width: 20px;
+           height: 15px;
+           border: 1px solid chartreuse;
+           margin-left: 70%;
+  }
+.row::after{
+    content: "";
+    display: table;
+    clear:both;
+}
+
+.select{
+    border: 1px solid #ff523b;
+    padding: 10px
+
+}
+.column {
+    float: left;
+    width: 33.33%;     
+}
+
+.logo{
+    margin-right: 70%;
+}
+.select{
+    margin-left: 100%;
+}
+.column img {
+    width: 150px;
+    height: 150px;
+    margin-left: 90px;
+
+}
+
+
